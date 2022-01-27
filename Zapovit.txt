@@ -1,6 +1,7 @@
 
 
-The java Command
-Name
-
-java - launch a Java application
+Git is a open-source code managemen tool; it was created by Linus Torvalds when he was building the Linux kernel. 
+Because of those roots, it needed to be really fast; that it is, and easy to get the hang of as well. 
+Git allows you to work on your code with the peace of mind that everything you do is reversible. 
+It makes it easy to experiment with new ideas in a project and not worry about breaking anything. 
+The Git Parable, by Tom Preston-Werner, is a great introduction to the terms and ideas behind Git.
