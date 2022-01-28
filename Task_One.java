@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 public class Task_One {
+
+
     public static void main(String[] args) {
+        WhileLoops whileLoops = new WhileLoops();
 
         Scanner scanner = new Scanner(System.in);
 
@@ -18,6 +21,7 @@ public class Task_One {
         double perimeter = Math.PI * 2*radius;
         System.out.println("Perimeter of f circle: " + perimeter);
 
+        whileLoops.helloLoops();
 
 
     }
