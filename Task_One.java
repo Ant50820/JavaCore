@@ -1,5 +1,6 @@
-public  class MyfirstLesson{
+import java.util.Scanner;
 
+public class Task_One {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -18,6 +19,6 @@ public  class MyfirstLesson{
         System.out.println("Perimeter of f circle: " + perimeter);
 
 
-        
+
     }
 }
