@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Task_Two {
     public static void main(String[] args) {
 
