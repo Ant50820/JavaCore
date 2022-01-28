@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Task_Three {
 
     public static void main(String[] args) {
+=======
+package PACKAGE_NAME;public class Task_Three {
+  public static void main(String[] args) {
+>>>>>>> 876a106c5d2ed72c1331142240788039021bd8e8
 
         Scanner scanner = new Scanner(System.in);
 
