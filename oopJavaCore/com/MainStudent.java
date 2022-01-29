@@ -4,13 +4,13 @@ public class MainStudent {
 
     public static void main(String[] args) {
 
-        Student stud1 = new Student("Petia", 33);
+        Student stud1 = new Student("Petia", 20);
 
         Student stud2 = new Student();
         stud2.setName("Vita");
-        stud1.setRating(22);
+        stud2.setRating(35);
 
-        Student stud3 = new Student("Petro", 25);
+        Student stud3 = new Student("Petro", 11);
 
 
         Student.setAvgRating(stud1, stud2, stud3);
