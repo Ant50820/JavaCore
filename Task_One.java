@@ -21,7 +21,7 @@ public class Task_One {
         double perimeter = Math.PI * 2*radius;
         System.out.println("Perimeter of f circle: " + perimeter);
 
-        whileLoops.helloLoops();
+
 
 
     }

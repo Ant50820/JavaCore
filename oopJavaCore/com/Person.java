@@ -1,5 +1,7 @@
 package oopJavaCore.com;
 
+import java.util.Scanner;
+
 public class Person {
 
     /* in this class Person we create:
@@ -48,16 +50,19 @@ public class Person {
 
     //to calculate the age of person
     public void getAge(){
+        int agePerson = 2022 - birthYear;
 
     }
 
     //to input information about person
     public void input(){
-        System.out.println();
+        Scanner scanner = new Scanner(System.in);
+
     }
 
     //to output information about person
     public void output(){
+
 
     }
 
