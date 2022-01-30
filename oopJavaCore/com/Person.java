@@ -51,7 +51,7 @@ public class Person {
     //to calculate the age of person
     public void getAge(){
         int agePerson = 2022 - birthYear;
-
+        System.out.println("your age: " + agePerson);
     }
 
     //to input information about person
@@ -63,7 +63,6 @@ public class Person {
     //to output information about person
     public void output(){
 
-
     }
 
     //to change the first name or/and last name of person
@@ -71,4 +70,10 @@ public class Person {
 
     }
 
+    @Override
+    public String toString() {
+        return "Person{ " +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + " }";
+    }
 }
