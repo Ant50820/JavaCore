@@ -4,7 +4,7 @@ public class Task_One {
 
 
     public static void main(String[] args) {
-        WhileLoops whileLoops = new WhileLoops();
+
 
         Scanner scanner = new Scanner(System.in);
 
