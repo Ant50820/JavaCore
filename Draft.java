@@ -46,33 +46,35 @@ class Exm {
 
     }
 }
+
 public class Draft {
 
     public static void main(String[] args) {
 
 
-        Exm exm = new Exm();
-        exm.setName("Anton Artiushenko");
-        exm.setAge(37);
 
-        Exm exm1 = new Exm();
-        exm1.setName("Stive");
-        exm1.setAge(45);
-
-        System.out.println(exm.getName());
-        System.out.println(exm.getAge());
-
-        String name = exm.getName();
-        int age = exm.getAge();
-
-        System.out.println(name);
-        System.out.println(age);
-
-
-        exm.hell();
-        exm.distance("Kiev", 123);
-
-        System.out.println(exm);
+//        Exm exm = new Exm();
+//        exm.setName("Anton Artiushenko");
+//        exm.setAge(37);
+//
+//        Exm exm1 = new Exm();
+//        exm1.setName("Stive");
+//        exm1.setAge(45);
+//
+//        System.out.println(exm.getName());
+//        System.out.println(exm.getAge());
+//
+//        String name = exm.getName();
+//        int age = exm.getAge();
+//
+//        System.out.println(name);
+//        System.out.println(age);
+//
+//
+//        exm.hell();
+//        exm.distance("Kiev", 123);
+//
+//        System.out.println(exm);
 
     }
 }

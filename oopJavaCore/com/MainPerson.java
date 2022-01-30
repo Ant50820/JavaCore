@@ -31,6 +31,7 @@ public class MainPerson {
         person5.setLastName("Jonsone");
         person5.setBirthYear(1992);
 
+
         System.out.println("------------------------------------------------");
         System.out.println(person1);
         person1.getAge();
@@ -52,5 +53,16 @@ public class MainPerson {
         person5.getAge();
         System.out.println("------------------------------------------------");
 
+        person1.changeName("Viliam", "Emington");
+        person2.changeName("Josh", "Musil");
+        person3.changeName("Bob", "Linua");
+        person4.changeName("Sam", "Jungle");
+        person5.changeName("Judy", "Jonsone");
+
+
+
     }
+
+
+
 }

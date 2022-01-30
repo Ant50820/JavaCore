@@ -68,6 +68,11 @@ public class Person {
     //to change the first name or/and last name of person
     public void changeName(String fn, String ln){
 
+        String temp = fn;
+        fn = ln;
+        ln = temp;
+
+        System.out.println("person - firstName = " + fn + " lastName = " + ln);
     }
 
     @Override
