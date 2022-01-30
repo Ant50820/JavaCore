@@ -57,11 +57,18 @@ public class Person {
     //to input information about person
     public void input(){
         Scanner scanner = new Scanner(System.in);
+        this.firstName = scanner.nextLine();
+        this.lastName = scanner.nextLine();
+        this.birthYear = scanner.nextInt();
 
     }
 
     //to output information about person
     public void output(){
+        System.out.print("First Name: " + this.firstName + ", Last Name: " + this.lastName +
+                ", Birth Year: " + this.birthYear);
+        System.out.println(" ");
+
 
     }
 
@@ -75,10 +82,11 @@ public class Person {
         System.out.println("person - firstName = " + fn + " lastName = " + ln);
     }
 
-    @Override
-    public String toString() {
-        return "Person{ " +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + " }";
-    }
+//    @Override
+//    public String toString() {
+//        return "Person {" +
+//                "firstName = " + firstName +  ", lastName = " + lastName +
+//                ", birthYear = " + birthYear +
+//                " }";
+//    }
 }
