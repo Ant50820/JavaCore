@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WhileLoops {
+public class Draft {
 
     public static void helloLoops() {
         Scanner scanner = new Scanner(System.in);
