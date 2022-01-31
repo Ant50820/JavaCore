@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class PracticalTask2 {
 
+    /*
+    Enter the number of the day of the week.
+    Display the name in three languages.
+     */
+
     public static void main(String[] args){
 
         Scanner br = new Scanner(System.in);
