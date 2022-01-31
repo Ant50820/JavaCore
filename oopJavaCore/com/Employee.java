@@ -59,10 +59,15 @@ public class Employee {
 
     public void changeRate(int rate) {
 
+        int temp = rate;
+        rate = temp;
+        System.out.println("");
+
 
     }
 
     public void getBonuses(){
+        int bonus;
 
     }
 }
