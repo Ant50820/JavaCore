@@ -1,12 +1,12 @@
 package condit.statements.com;
 
-public class Product {
+public class ProductTask4 {
 
     private String name;
     private int price;
     private int quantity;
 
-    public Product(String name, int price, int quantity) {
+    public ProductTask4(String name, int price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
@@ -37,15 +37,28 @@ public class Product {
     }
 
 
-    public static Product mostExpensive(Product ... products){
-        Product most = null;
-        for (Product pr: products) {
-            if (most == null) most = pr;
-            else if (most.getPrice() > pr.getPrice()){
-                most = pr;
+//    public static Product mostExpensive(Product ... products){
+//        Product most = null;
+//        for (Product pr: products) {
+//            if (most == null) most = pr;
+//            else if (most.getPrice() < pr.getPrice()){
+//                most = pr;
+//            }
+//        }
+//        return most;
+
+        public static ProductTask4 itemsExpensiv(ProductTask4... prod){
+            ProductTask4 item = null;
+            for (ProductTask4 ip: prod) {
+                if (item == null) item = ip;
+                else if (item.getQuantity() < ip.getQuantity()){
+                    item = ip;
+                }
             }
-        }
-        return most;
+            return item;
+
+
+
         //null
         //10 13 12 17
         //10
