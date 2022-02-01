@@ -9,13 +9,32 @@ public class PracticalTask3 {
      */
     public enum Continents {
 
-        USA, CANADA, FRENCH, UKRAINE;
+        AFRICA, EUROPE, NORTH_AMERICA, SOUTH_AMERICA, ASIA;
     }
 
     public static void main(String[] args) {
 
+        Continents continents = Continents.AFRICA;
 
+        switch (continents) {
+            case AFRICA:
+                System.out.println("Algeria, Tunisia, Morocco");
+                break;
+            case EUROPE:
+                System.out.println("Ukraine, France, Poland");
+                break;
+            case NORTH_AMERICA:
+                System.out.println("Canada, USA, Mexico");
+                break;
+            case SOUTH_AMERICA:
+                System.out.println("Brazil, Colombia, Argentina");
+                break;
+            case ASIA:
+                System.out.println("China, India, Taiwan");
+                break;
+            default:
 
+        }
 
 
     }
