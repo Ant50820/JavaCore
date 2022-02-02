@@ -50,13 +50,28 @@ public class Dog {
         this.age = age;
     }
 
-    public static Dog otherName(Dog... dogs){
+//    public static Dog otherName(Dog... dogs){
+//
+//        Dog dogItem = null;
+//        for (Dog ds : dogs) {
+//            if (dogItem == null) {
+//                dogItem = ds;
+//            } else if (dogItem.getName() == ds.getName()){
+//                dogItem = ds;
+//            }
+//        }
+//        return dogItem;
+//
+//    }
+
+    //Display the name and the kind of the oldest dog
+    public static Dog getOldDog(Dog... dogs){
 
         Dog dogItem = null;
         for (Dog ds : dogs) {
             if (dogItem == null) {
                 dogItem = ds;
-            } else if (dogItem.getName() == ds.getName()){
+            } else if (dogItem.getAge() < ds.getAge()){
                 dogItem = ds;
             }
         }
@@ -64,17 +79,17 @@ public class Dog {
 
     }
 
+
+
     public static void main(String[] args) {
 
         Dog dog1 = new Dog("Mig", "Mastiff", 3);
-        Dog dog2 = new Dog("Kit", "Labrador", 5);
-        Dog dog3 = new Dog("Kit", "Dane", 1);
+        Dog dog2 = new Dog("Jit", "Labrador", 5);
+        Dog dog3 = new Dog("Kit", "Dane", 7);
 
 
-        Dog dogsItem = Dog.otherName(dog1, dog2, dog3);
-        System.out.println(dogsItem.getName());
+        Dog dogsItem = Dog.getOldDog(dog1, dog2, dog3);
+        System.out.println("The oldest dog: " + dogsItem.getAge() + " : " + dogsItem.getName() + " : " + dogsItem.getBreed());
+
     }
-
-
-
 }
