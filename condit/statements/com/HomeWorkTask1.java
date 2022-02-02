@@ -25,5 +25,6 @@ public class HomeWorkTask1 {
             System.out.println("They aren't belong to the range!");
         }
 
+
     }
 }
