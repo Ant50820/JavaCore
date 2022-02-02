@@ -1,3 +1,5 @@
+package firstlesson.com;
+
 import java.util.Scanner;
 
 
