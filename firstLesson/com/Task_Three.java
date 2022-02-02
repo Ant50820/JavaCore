@@ -1,3 +1,4 @@
+package firstLesson.com;
 
 import java.util.Scanner;
 

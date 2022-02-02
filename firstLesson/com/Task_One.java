@@ -1,3 +1,5 @@
+package firstLesson.com;
+
 import java.util.Scanner;
 
 public class Task_One {
