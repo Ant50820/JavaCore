@@ -49,20 +49,10 @@ public class Dog {
     public void setAge(int age) {
         this.age = age;
     }
+//Check if there is no two dogs with the same name
+    //public static Dog sameName(Dog... dogs){
 
-//    public static Dog otherName(Dog... dogs){
-//
-//        Dog dogItem = null;
-//        for (Dog ds : dogs) {
-//            if (dogItem == null) {
-//                dogItem = ds;
-//            } else if (dogItem.getName() == ds.getName()){
-//                dogItem = ds;
-//            }
-//        }
-//        return dogItem;
-//
-//    }
+    //}
 
     //Display the name and the kind of the oldest dog
     public static Dog getOldDog(Dog... dogs){
