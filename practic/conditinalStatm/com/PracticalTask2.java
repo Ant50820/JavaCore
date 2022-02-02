@@ -1,4 +1,4 @@
-package conditinalStatm.com;
+package practic.conditinalStatm.com;
 
 import java.util.Scanner;
 

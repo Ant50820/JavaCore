@@ -1,4 +1,4 @@
-package conditinalStatm.com;
+package practic.conditinalStatm.com;
 
 public class ProductTask4 {
 

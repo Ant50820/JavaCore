@@ -1,4 +1,4 @@
-package conditinalStatm.com;
+package homework.conditinalStatm;
 
 import java.util.Scanner;
 
