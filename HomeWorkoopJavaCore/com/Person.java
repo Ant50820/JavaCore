@@ -1,4 +1,4 @@
-package oopJavaCore.com;
+package HomeWorkoopJavaCore.com;
 
 import java.util.Scanner;
 
