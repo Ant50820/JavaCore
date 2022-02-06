@@ -19,7 +19,8 @@ public class Developer extends Employee{
 
     @Override
     public String report() {
-        setPosition("");
+        getPosition();
+        //System.out.println(getName() + " - " + getAge()  + " - " + getSalary() + " - " + position);
         return super.report();
     }
 }
