@@ -19,8 +19,9 @@ public class Developer extends Employee{
 
     @Override
     public String report() {
-        getPosition();
-        //System.out.println(getName() + " - " + getAge()  + " - " + getSalary() + " - " + position);
+        this.getPosition();
         return super.report();
+
+
     }
 }

@@ -37,7 +37,7 @@ public class Employee {
     }
 
     public String report() {
-        System.out.println(name + " - " + age  + " - " + salary);
+        //System.out.println(name + " - " + age  + " - " + salary);
         return String.format("Name: $s, Age: $d, Salary: \u20B4 $.2f." , name, age, salary);
     }
 
