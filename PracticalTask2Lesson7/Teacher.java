@@ -11,16 +11,15 @@ public class Teacher extends Staff {
 
     @Override
     public double salary() {
-        return 0;
+        return  2000 * 0.22 + 2500;
     }
 
     @Override
     public String print() {
-        return "I am a " + TYPE_PERSON;
+
+        return "I am a " + TYPE_PERSON + " = " + salary();
     }
 }
-
-
 
 
 

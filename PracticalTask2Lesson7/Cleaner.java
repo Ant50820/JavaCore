@@ -11,11 +11,11 @@ public class Cleaner extends Staff {
 
     @Override
     public double salary() {
-        return 0;
+        return 1000.6 * 0.22 + 1900;
     }
 
     @Override
     public String print() {
-        return "I am a " + TYPE_PERSON;
+        return "I am a " + TYPE_PERSON + " = "+ salary();
     }
 }
