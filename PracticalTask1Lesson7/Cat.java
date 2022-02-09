@@ -18,13 +18,13 @@ public class Cat implements Animal {
 
     @Override
     public String voice() {
-        System.out.println(name + " - Miau Miau");
-        return this.getName();
+        //System.out.println(name + " - Miau Miau");
+        return this.getName() + " - Miau Miau, ";
     }
 
     @Override
     public String feed() {
-        System.out.println(name + " - Milk");
-        return this.getName();
+        //System.out.println(name + " - Milk");
+        return getName() +  " - Milk, ";
     }
 }

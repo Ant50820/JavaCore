@@ -12,14 +12,17 @@ public class MainAnimal {
         animals[2] = new Dog("Duster");
         animals[3] = new Dog("Gogo");
 
-        for (int i = 0; i < animals.length; i++) {
-            Animal animal = animals[i];
-            animal.voice();
-            animal.feed();
+//        for (int i = 0; i < animals.length; i++) {
+//            Animal animal = animals[i];
+//            animal.voice();
+//            animal.feed();
+//        }
+
+        for (Animal animal : animals) {
+            String an1 = animal.feed() + animal.voice();
+            System.out.println(an1);
+
         }
-
-
-
 
     }
 }
