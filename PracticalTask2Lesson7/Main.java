@@ -20,18 +20,10 @@ public class Main {
 
 
 
-
-
         for (Person person : people) {
             String pel = person.print();
             System.out.println(pel);
         }
-
-
-
-
-
-
 
 
     }
