@@ -18,13 +18,13 @@ public class Dog  implements  Animal {
 
     @Override
     public String voice() {
-        System.out.println("Gav Gav");
-        return this.voice();
+        System.out.println(name + " - Gav Gav");
+        return this.getName();
     }
 
     @Override
     public String feed() {
-        System.out.println("Meat");
-        return this.feed();
+        System.out.println(name + " - Meat");
+        return this.getName();
     }
 }
