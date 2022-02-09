@@ -16,6 +16,6 @@ public class Cleaner extends Staff {
 
     @Override
     public String print() {
-        return "I am a " + TYPE_PERSON + " = "+ salary();
+        return "I am a " + TYPE_PERSON + " my salary = "+ salary();
     }
 }
