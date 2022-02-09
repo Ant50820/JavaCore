@@ -1,11 +1,17 @@
 package PracticalTask2Lesson7;
 
-public class Student extends Person {
+public class Teacher extends Staff {
 
     final String TYPE_PERSON;
 
-    public Student(String TYPE_PERSON) {
+    public Teacher (String TYPE_PERSON) {
+        super(TYPE_PERSON);
         this.TYPE_PERSON = TYPE_PERSON;
+    }
+
+    @Override
+    public double salary() {
+        return 0;
     }
 
     @Override
@@ -16,7 +22,10 @@ public class Student extends Person {
 
 
 
+
+
 //private String name;
+
 //    public String getName() {
 //        return name;
 //    }
@@ -24,4 +33,3 @@ public class Student extends Person {
 //    public void setName(String name) {
 //        this.name = name;
 //    }
-

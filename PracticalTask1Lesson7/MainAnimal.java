@@ -5,6 +5,11 @@ import java.util.Arrays;
 public class MainAnimal {
 
     public static void main(String[] args) {
+        /*
+        Create array of Animal and add some Cats and Dogs to it.
+        Call voice() and feed() method for all of it
+
+         */
 
         Animal[] animals = new Animal[4];
         animals[0] = new Cat("Nola");

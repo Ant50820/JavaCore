@@ -1,6 +1,10 @@
 package PracticalTask1Lesson7;
 
 public class Dog  implements  Animal {
+    /*
+     Create two classes Dog, which implement this interface
+     */
+
 
     String name;
 
@@ -15,6 +19,7 @@ public class Dog  implements  Animal {
     public void setName(String name) {
         this.name = name;
     }
+
 
     @Override
     public String voice() {

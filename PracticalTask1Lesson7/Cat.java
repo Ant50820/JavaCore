@@ -1,6 +1,9 @@
 package PracticalTask1Lesson7;
 
 public class Cat implements Animal {
+    /*
+     Create two classes Cat, which implement this interface
+     */
 
     private String name;
 
