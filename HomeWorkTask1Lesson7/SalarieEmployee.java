@@ -36,7 +36,6 @@ public class SalarieEmployee extends Employee implements Payment {
     @Override
     public String report() {
         return " Average monthly wage = " + calculatePay() + super.report() + " Social security number: "
-                + getSocialSecurityNumber()
-                +  " Fixed monthly payment: " + getFixedMonthlyPayment();
+                + getSocialSecurityNumber() +  " Fixed monthly payment: " + getFixedMonthlyPayment();
     }
 }

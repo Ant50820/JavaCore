@@ -41,7 +41,7 @@ public class Employee {
     }
 
     public String report() {
-        //System.out.println(name + " - " + age  + " - " + salary);
+
         return String.format(", Name: " + name + " Age: " + age + " Salary: " + salary );
     }
 
