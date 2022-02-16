@@ -14,11 +14,11 @@ public class PersonClone {
 
     public static void main(String[] args) {
         //PersonClone personClone = new PersonClone(new Person1.FullName("Mike", "Green"), 25);
-        Person person = new Person("Hall", "Bob", 25);
-                try {
-            PersonClone copOfPerson = (PersonClone) person.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
+//        Person person = new Person("Hall", "Bob", 25);
+//                try {
+//            PersonClone copOfPerson = (PersonClone) person.clone();
+//        } catch (CloneNotSupportedException e) {
+//            e.printStackTrace();
+//        }
     }
 }
