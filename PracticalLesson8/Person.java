@@ -1,7 +1,7 @@
 package PracticalLesson8;
 
 public class Person {
-    private FullName fullName = new FullName();
+    private FullName fullName = new FullName("HOLL", "HOLL");
     private int age;
 
     public FullName getFullName() {
@@ -26,9 +26,19 @@ public class Person {
          this.age = age;
     }
 
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
     private class FullName {
         private String firstName;
         private String lastName;
+
+        public FullName(String firstName, String lastName) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
     }
 
 
