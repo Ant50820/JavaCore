@@ -27,7 +27,8 @@ public abstract class Person {
      "First name: <firstName>, Last name: <lastName>, Age: <age>"
      */
     public String info() {
-        return "First name: <firstName>, Last name: <lastName>, Age: <age>" ;
+        return "First name: " + fullName.getFirstName() + ", Last name: " +
+        fullName.getLastName() + ", Age: " + age;
     }
 
     /*

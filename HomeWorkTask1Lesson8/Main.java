@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Student student = new Student(new FullName("Hlsl", "ksjdl"), 29, 3);
+        Student student = new Student(new FullName("Himan", "Manhall"), 29, 3);
 
 
         System.out.println(student.info());
