@@ -75,7 +75,8 @@ public class Car {
 
     public static void main(String[] args) {
         Car car1 = Car.getCar().addModel("BNW")
-                .addEngineCapacity(100.2).addColor("Blue").addPassengerCapacity(5).setIsConditioning(true).build();
+                .addEngineCapacity(100.2).addColor("Blue")
+                .addPassengerCapacity(5).setIsConditioning(true).build();
         System.out.println(car1);
     }
 }
