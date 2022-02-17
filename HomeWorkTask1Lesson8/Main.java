@@ -10,11 +10,14 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        //Student.FullName student = new Student(3).new FullName("Hel", "Bob");
 
-        Student student = new Student(3);
-        Student.FullName personWithName = student.new FullName("Bob", "Gordon");
-        student.info();
+        Student student = new Student(new FullName("Hlsl", "ksjdl"), 29, 3);
+
+
+        System.out.println(student.info());
+        System.out.println(student.activity());
+
+
 
 
     }
