@@ -1,9 +1,25 @@
 package PracticalTask2Lesson8;
 
-public class Wrapper {
+public class Wrapper  implements Shape{
 
-    public static void main(String[] args) {
+    /*
+    Create Wrapper class which should wrap any
+    objects which implements Shape interface
+     */
 
-        //Wrapper<Shape> wrapper = new Wrapper<>(new Shape());
+    private Shape shape;
+
+    public Wrapper(Shape shape) {
+        this.shape = shape;
     }
+
+
+    @Override
+    public String getLine() {
+        return shape.getLine() + " Wrapper Shape";
+    }
+
+
+
+
 }

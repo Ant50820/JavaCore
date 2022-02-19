@@ -17,7 +17,7 @@ class Appl {
         String text = "Hello World";
         WrapperBox box = new WrapperBox();
         box.set(text);
-        Integer i = (Integer) box.get();
+        //Integer i = (Integer) box.get();
 
 //        String text = "Hell World";
 //        Box box = new Box();
