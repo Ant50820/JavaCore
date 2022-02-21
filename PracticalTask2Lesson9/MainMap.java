@@ -62,12 +62,14 @@ public class MainMap {
         If you can't find this name - say about it
         to user (use function containsValue()).
          */
-        String name = scanner.nextLine();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String s = br.readLine();
         for (Iterator i = employeeMap.entrySet().iterator(); i.hasNext();) {
             Map.Entry entry = (Map.Entry) i.next();
 
-            if (employeeMap.containsValue(name)) {
-                System.out.println(employeeMap.get(name));
+            if (employeeMap.containsValue(s)) {
+
+                System.out.println(employeeMap.get(s)); // hull, I need help
             } else {
                 System.out.println("False");
             }
