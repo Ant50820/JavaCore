@@ -16,7 +16,7 @@ public class MainMap {
         Map<String, String> personMap = new HashMap<String, String>();
         personMap.put("Lui", "Lyi");
         personMap.put("Jik", "Bob");
-        personMap.put("Mik", "Neo");
+        personMap.put("Hol", "Neo");
         personMap.put("Frik", "LYi");
         personMap.put("Fun", "Jon");
         personMap.put("Hol", "Prin");
@@ -29,9 +29,28 @@ public class MainMap {
             System.out.println("lastName - " + entry.getKey()  + " : " + "firstName - " +  entry.getValue());
         }
         System.out.println("--------------------------------------");
+
+
+
+
+        //Remove from the map person whose firstName is ”Orest” (or other). Print result.
+        for (Map.Entry<String, String> entry : personMap.entrySet()) {
+
+            if (entry.equals("Hol")) {
+                personMap.remove("Hol");
+            }
+            System.out.println("lastName - " + entry.getKey() + " : " + "firstName - " + entry.getValue());
+        }
+
+        System.out.println("***************************");
+
+
+
+        for (String s : personMap.keySet()) {
+            if (s.equals(personMap.get("Hol"))) {
+                personMap.remove("Hol");
+            }
+            System.out.println(s + " ");
+        }
     }
-
-
-
-
 }
